@@ -26,4 +26,4 @@ Option 2 will display the high score.
 Option 3 will exit the game.
 
 This was a project that I came up with to test some of my newly learned Python skills.
-Some of the skills I used were While loops, if statements, and defining functions.
+Some of the skills I used were While loops, if statements, defining functions, and loading a csv file into a list.
