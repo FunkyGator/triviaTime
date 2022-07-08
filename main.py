@@ -72,11 +72,11 @@ def display_question(ran_num, genre):
             guess = 0
             continue
         elif guess == corr_ans:
-            magicsound("correct_answer.wav")
+            magicsound("correct_answer.wav", False)
             flashy_words("You got it right!")
             score = score + 1
         else:
-            magicsound("buzzer.wav")
+            magicsound("buzzer.wav", False)
             print(Fore.RED + "You guessed wrong!")
             time.sleep(0.7)
 
@@ -196,6 +196,7 @@ while still_playing:
             os.system('cls')
             print("")
             print("")
+            magicsound("high_score.wav", False)
             flashy_words(f"You set a new High Score: {high_score}")
     elif opt == 2:
         os.system('cls')
